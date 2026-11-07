@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<link href="stileHomePage.css" rel="stylesheet">
+<html>
+<head>
+    <title>Psychortia Elata</title>
+</head>
+<body>
+<h1>Psychortia Elata</h1>
+<h2 class="sottotitoletto">la pianta bacio</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWlDSExU6L6hEIc1qjk22zOdx2auWig1Eht8xIwRqt3Q&s=10" id="imgGrande"style="max-width: 80%;">
+<p style="font-size: 1.5rem;"> Questa pianta originaria dell'America Centrale e del Sud ha suscitato la curiosità dell'essere umano per via della particolare tecnica di sopravvivenza
+  adottata. Il "fiore" che vedete qui sopra è in realtà composto da foglie dal colore rosso cangiante, che attirano insetti impollinatori e colibrì.
+  Le foglie, per la precisione brattee che si aprono quando i fiori al loro interno iniziano a svilupparsi, costituiscono quindi effettivamente una sorta di tecnica di seduzione della pianta, che grazie 
+  ad esse ha più probabilità di riprodursi. Potrete trovare questa specie nelle foreste pluviali tropicali, ma sempre meno a causa della deforestazione
+  incontrollata che si verifica in quelle zone: la specie è a rischio di estinzione. Nonostante la situazione critica continuerà a sfoggiare il suo rossetto migliore,
+  che ha portato molti a soprannominarla "Hot kiss plant" o in altri modi vagamente scurrili. Dovremmo tutti imparare da lei, non si lascia influenzare dal giudizio altrui.
+</p>
+
+<div class="displayGallery">
+    <img class="card" src="PiantaBacio5.jpeg">
+    <img class="card" src="PiantaBacio6.jpeg" id="imgDestra">
+</div>
+<script>
+   const img1 = document.getElementById('imgGrande');
+
+  img1.addEventListener('mouseover', function() {
+    this.src = 'BacioColibri.png';
+  });
+  
+  img1.addEventListener('mouseout', function() {
+    this.src = 'PiantaBacioGrande.jpeg';
+  });
+</script>
+<a href="index.html">
+    <h2>Torna alla home</h2>
+</a>
+
+</body>
+</html>

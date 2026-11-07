@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<link href="stileHomePage.css" rel="stylesheet">
+<html>
+<head>
+    <title>Solanum Ovigerum</title>
+</head>
+<body>
+<h1>Solanum Ovigerum</h1>
+<h2 class="sottotitoletto">l'easter egg della natura</h2>
+<img src="https://pianteefioriditalia.it/wp-content/uploads/2021/10/pianta-delle-uova.jpg" id="imgGrande">
+<p style="font-size: 1.5rem;"> 
+  Talvolta la natura vuole testare la nostra attenzione e ci ritroviamo davanti un albero di uova... In realtà si tratta della Solanum Ovigerum, una pianta dai frutti che somigliano a uova di gallina ma che sono
+  in realà parenti delle melanzane! Questa pianta appartiene appunto alla famiglia delle <i>Solanacee</i>, è originaria dell'Asia e dell'Africa ed è commestibile anche se viene spesso usata come decorazione proprio per lo scherzetto che gioca alle nostre menti.
+  I frutti in realtà risultano maturi quando assumono una colorazione gialla, e come le loro cugine melanzane vanno cotti prima di mangiarli.
+</p>
+
+<div class="displayGallery">
+    <img class="card" src="PiantaUovo6.jpeg">
+    <img class="card" src="PiantaUovo5.jpeg" id="imgDestra">
+</div>
+<script>
+   const img1 = document.getElementById('imgDestra');
+   
+  img1.addEventListener('mouseover', function() {
+    this.src = 'MelanzanaUovo.png';
+  });
+  
+  img1.addEventListener('mouseout', function() {
+    this.src = 'PiantaUovo5.jpeg';
+  });
+</script>
+<a href="index.html">
+    <h2>Torna alla home</h2>
+</a>
+
+</body>
+</html>

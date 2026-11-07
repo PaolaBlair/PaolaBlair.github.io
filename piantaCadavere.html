@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<link href="stileHomePage.css" rel="stylesheet">
+<html>
+<head>
+    <title>Aro Titano</title>
+</head>
+<body>
+<h1>Aro Titano</h1>
+<h2 class="sottotitoletto">il fiore cadavere</h2>
+<img src="https://www.greenme.it/wp-content/uploads/2013/07/Aro-titano.jpg" id="imgGrande">
+
+<div class="displayPage">
+    <p style="font-size: 1.5rem;"> Questo è un fiore che non conviene osservare troppo da vicino, immaginerete perchè dal suo nome. 
+    La particolarità dell'Aro Titano è infatti cercare di assomigliare il più possibile a un cadavere in decomposizione, attirando i suoi impollinatori preferiti: i coleotteri Silphidae! (foto qui vicino)
+    La pianta emette un odore orribile per l'essere umano, che ricorda i cadaveri in putrescenza, anche la consistenza e il colore del fiore hanno questo scopo. Inoltre il fiore mantiene una temperatura abbastanza elevata sulla sua superficie, per migliorare uleriormente questa illusione.
+    Insomma, è sicuramente una pianta per stomaci forti.<br>
+    L'odore particolare però non è l'unica caratteristica peculiare di questo fiore: esso risulta l'infiorescenza non ramificata più grande al mondo!
+    </p>
+    <img class="pulsanteGrande" src="SeNonHaiPauraDegliInsetti.png" id="SenonhaipauraInsetti" onclick="cambiaFotoConClick()" >
+</div>
+
+<script>
+   function cambiaFotoConClick(){
+    const img = document.getElementById("SenonhaipauraInsetti");
+    if (img.src.includes("SeNonHaiPauraDegliInsetti")){
+        img.src = "coleottero.jpg";
+    } else {
+        img.src = "SeNonHaiPauraDegliInsetti.png";
+    }
+  }
+</script>
+
+<div class="displayGallery">
+    <img class="card" src="AroTitano2.jpg">
+    <img class="card" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzxXJlGM2TsmxajLNpkUkyrUyhsu0vC8q0N9Bwc174YepXPcJUS4JZ-k2P&s=10">
+</div>
+
+<a href="index.html">
+    <h2>Torna alla home</h2>
+</a>
+
+</body>
+</html>

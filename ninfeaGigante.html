@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link href="stileHomePage.css" rel="stylesheet">
+<html>
+<head>
+    <title>Victoria Cruziana</title>
+</head>
+<body>
+<h1>Victoria Cruziana</h1>
+<h2 class="sottotitoletto">la ninfea gigante della regina</h2>
+<img src="ninfeaCruzianaKew.jpg" id="imgGrande">
+<p style="font-size: 1.5rem;"> Esistono tre ninfee dedicate alla regina Victoria d'Inghilterra che certamente non passano inosservate. Native del Sud America hanno dimensioni smisurate e si chiamano: Victoria amazonica, Victoria boliviana e Victoria cruziana. È quest'ultima in particolare che detiene il record per dimensione: le sue foglie hanno raggiunto ben 3,2 metri di diametro e potreste trovare bambini che tranquillamente vi riposano sopra galleggiando.
+    Questa pianta divenuta espressione di sfarzo inglese e presente nei Kew Gardens ha quindi anche la funzione di gonfiabile estivo, grazie al reticolo intricato presente sulla faccia inferiore della foglia dove restano intrappolate sacche d'aria. Ma aspettate prima di preparare costume e cappellino: sul bordo di queste enormi foglie c'è una fila di spine pronte a difendersi da ospiti indesiderati. In natura questa precauzione è utile, visti gli attacchi che la ninfea riceve da uccelli e pesci.
+</p>
+
+<div class="displayGallery">
+    <img class="card" src="https://leganerd.com/wp-content/uploads/2022/07/ninfea-gigante-piu-grande-del-mondo.jpg">
+    <img class="card" src="ninfeaKew5.jpg" id="imgDestra">
+</div>
+<script>
+   const img1 = document.getElementById('imgDestra');
+  
+  img1.addEventListener('mouseover', function() {
+    this.src = 'stickmanSeduto.png';
+  });
+  
+  img1.addEventListener('mouseout', function() {
+    this.src = 'ninfeaKew5.jpg';
+  });
+</script>
+<a href="index.html">
+    <h2>Torna alla home</h2>
+</a>
+
+</body>
+</html>
