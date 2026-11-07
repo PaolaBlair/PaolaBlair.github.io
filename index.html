@@ -6,11 +6,91 @@
 </head>
 <body>
 
-<h1>Piante Strane</h1>
+<h1 style="text-shadow: -5px 5px 0 #f9f7c5;">Piante Strane</h1> <!--text shadow: spostamentoOrizz spostamVertic blur-radius colore-->
 <p>Immaginiamo di incamminarci nel verde, in una zona vicina alla nostra abitazione. <br>Ci sono piante che sicuramente il nostro occhio si aspetterà di incontrare: delle margherite, un pò di salvia o qualche abete.
   <br> Ci sono però piante in natura alla cui vista interromperemmo immediatamente la nostra passeggiata, interdetti e confusi dalla loro stranezza. <br>
-  Probabilmente non le troveremo dietro casa nostra, ma potrebbero stuzzicare la nostra curiosità perciò ne analizzeremo qualche esempio.<br> E poi non si sa mai cosa potrebbe sfoggiare il nostro vicino di casa.
+  Probabilmente non le troveremo dietro casa nostra, ma potrebbero stuzzicare la nostra curiosità perciò ne analizzeremo qualche esempio.<br> E poi non si sa mai cosa potrebbe sfoggiare il nostro vicino di casa...
 </p>
 
+<p class="attenzione">Attenzione: alcune immagini contengono dei segreti...</p>
+
+<div class="displayHome">
+  <div class="card">
+    <h2>VICTORIA CRUZIANA</h2>
+    <h3 class="sottotitoletto">la ninfea gigante della regina</h3>
+    <a href="ninfeaGigante.html">
+      <img src="ninfeaGigante2.jpg" id="imgDefault1">
+    </a> 
+  </div>
+  <div class="card">
+    <h2>ARO TITANO</h2>
+    <h3 class="sottotitoletto">il fiore cadavere</h3>
+    <a href="piantaCadavere.html">
+      <img src="AroTitano1.jpg" id="imgDefault2">
+    </a>
+  </div>
+  <div class="card">
+    <h2>PSYCHOTRIA ELATA</h2>
+    <h3 class="sottotitoletto">la pianta del bacio</h3>
+    <a href="piantaBacio.html">
+      <img src="PiantaBacio4.jpeg" id="imgDefault3">
+    </a>
+  </div> 
+  <div class="card">
+    <h2>SOLANUM OVIGERUM</h2>
+    <h3 class="sottotitoletto">easter egg</h3>
+    <a href="piantaUovo.html">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQGOavPdkbjeUZUOlgoF_ceeiwXIHnJHh3kbIFENmjw&s=10" id="imgDefault4">
+    </a>
+  </div>
+
+<script>
+   const img1 = document.getElementById('imgDefault1');
+  
+  img1.addEventListener('mouseover', function() {
+    this.src = 'OsservaPiuDaVicino.png';
+  });
+  
+  img1.addEventListener('mouseout', function() {
+    this.src = 'ninfeaGigante2.jpg';
+  });
+</script>
+<script>
+   const img2 = document.getElementById('imgDefault2');
+  
+  img2.addEventListener('mouseover', function() {
+    this.src = 'OsservaPiuDaVicino.png';
+  });
+  
+  img2.addEventListener('mouseout', function() {
+    this.src = 'AroTitano1.jpg';
+  });
+</script>
+<script>
+   const img3 = document.getElementById('imgDefault3');
+  
+  img3.addEventListener('mouseover', function() {
+    this.src = 'OsservaPiuDaVicino.png';
+  });
+  
+  img3.addEventListener('mouseout', function() {
+    this.src = 'PiantaBacio4.jpeg';
+  });
+</script>
+<script>
+   const img4 = document.getElementById('imgDefault4');
+  
+  img4.addEventListener('mouseover', function() {
+    this.src = 'OsservaPiuDaVicino.png';
+  });
+  
+  img4.addEventListener('mouseout', function() {
+    this.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQGOavPdkbjeUZUOlgoF_ceeiwXIHnJHh3kbIFENmjw&s=10';
+  });
+</script>
+
+
+
+</div>
 </body>
 </html>
