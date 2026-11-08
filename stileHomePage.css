@@ -6,8 +6,8 @@ h3 {color:rgb(134, 0, 91);text-align:center; font-weight: bolder;font-size: 1.5r
 p {background:#e7f9c5 no-repeat fixed center; display: inline-block; padding:20px; border-radius: 12px;
 border: 2px dashed darkgreen;}
 img {border-radius: 10px;
-  object-fit: contain;        /* Questo valore determina la grandezza max della foto*/
-  width: 100%;              /* Rende l'immagine responsive se lo schermo si restringe */
+  object-fit: contain; 
+  width: 100%;            
   height: auto;}
 
 .sottotitoletto {margin-top: -20px; /*sposta l'elemento in alto di 20px rispetto la posizione di default*/
@@ -16,15 +16,15 @@ img {border-radius: 10px;
 .displayHome {display: flex;/*allineo elementi in orizzontale*/ flex-wrap: wrap;/*va a capo su schermi piccoli*/
     gap: 20px;justify-content: center;/*titoli orizzontalmente al centro*/flex-direction: row;}
 
-.card {flex: 1; /* Distribuisce lo spazio equamente */ 
-  min-width: 250px;/* Larghezza minima prima di andare a capo */
+.card {flex: 1; /*inserendo questo valore gli elementi vengono distribuiti equamente nello spazio */ 
+  min-width: 250px;
   flex-direction: column; text-align: center;}
 .card img { /*determina come si comportano i tag immagine all'interno della classe card nello specifico*/
-  max-width: 500px;         /* Questo valore determina la grandezza max della foto*/
-  width: 100%;              /* Rende l'immagine responsive se lo schermo si restringe */
-  height: auto;             /*fa in modo che l'immagine non si distorca */
-  margin-top: 10px;         /* Aggiunge un po' di spazio tra il titolo e la foto */
-  border-radius: 8px;       /* Opzionale: arrotonda leggermente gli angoli delle foto */
+  max-width: 500px;         
+  width: 100%;              
+  height: auto;            
+  margin-top: 10px;        
+  border-radius: 8px;       
   border: 2px dashed darkgreen;
 }
 .pulsanteGrande{
